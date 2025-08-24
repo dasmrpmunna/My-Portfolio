@@ -109,7 +109,7 @@ While this is an open-source project under the MIT License, please note:
 
 Munna Das - [LinkedIn](https://www.linkedin.com/in/dasmrpmunna)
 
-Project Link: [https://github.com/dasmrpmunna/portfolio](https://github.com/dasmrpmunna/portfolio)
+Project Link: [https://github.com/dasmrpmunna/portfolio](https://github.com/dasmrpmunna/My-Portfolio?tab=readme-ov-file)
 
 ## 🙏 Acknowledgments
 
@@ -125,3 +125,4 @@ If you use this template, please include the following attribution in your READM
 ```markdown
 This portfolio is based on a template by Munna Das (https://github.com/dasmrpmunna/portfolio)
 ```
+
