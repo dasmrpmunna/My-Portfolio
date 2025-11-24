@@ -35,7 +35,7 @@ const Home: React.FC = () => {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
                 <img 
-                  src="/images/IMG_4288.jpg" 
+                  src="/images/Dasmrpmunna .jpg" 
                   alt="Munna Das" 
                   className="w-full h-full object-cover"
                 />
@@ -115,16 +115,16 @@ const Home: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <ProjectCard 
-              title="Audio-Deepfake-Detection"
-              description="Real-time audio deepfake detection app using TensorFlow and Flask. Upload a .wav file to check if its real or fake. Uses spectrogram features and a CNN model for classification."
-              image="/images/dasmunna.png"
-              tags={['Python', 'Scikit-Learn','TensorFlow/Keras','Librosa (for audio processing)', 'Flask', 'HTML','CSS','Git/GitHub']}
+              title="AI-Skin-Disease-Classification"
+              description="Built an AI skin disease classification with VGG19, hitting 86.8% accuracy across 9 conditions with real-time confidence scores. Developed a full-stack React (TypeScript) + Flask app for secure, interactive medical analysis. Delivered a privacy-first solution, processing images locally and showcasing TensorFlow, Python, and modern web skills."
+              image="/images/1.png"
+              tags={['Python', 'AI & Deep Learning(VGG19, TensorFlow/Keras)', 'React(TypeScript)', 'Flask']}
             />
             <ProjectCard 
-              title="Predict-Crop-Production"
-              description="🚀 Predict Crop Production is a Machine Learning project that helps farmers and agricultural experts determine the best crop to grow based on soil nutrients, temperature, humidity, pH, and rainfall.🌱 Using ML algorithms, it provides accurate predictions to optimize yield and sustainability.💡✨ 🚜🌾"
-              image="/images/crop production.png"
-              tags={['Python', 'Scikit-Learn', 'Flask', 'HTML','CSS','Git/GitHub']}
+              title="AI-Diabetic-Retinopathy-Classification"
+              description="🚀 I built a full-stack web application that uses deep learning to detect diabetic retinopathy from retinal images with 94% accuracy. The goal is to support early screening and prevention of vision loss in diabetic patients."
+              image="/images/2.png"
+              tags={['Python', 'AI & Deep Learning(CNN, VGG16, TensorFlow/Keras)', 'React(TypeScript)', 'Flask']}
             />
           </div>
           

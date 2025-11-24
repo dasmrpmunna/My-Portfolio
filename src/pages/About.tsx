@@ -31,7 +31,7 @@ const About: React.FC = () => {
                 </p>
                 <div className="mt-6 flex flex-wrap gap-4">
                   <a 
-                    href="/assets/Munna Das New Resume2.pdf" 
+                    href="/assets/Munna Das Update Resume .pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:ring-offset-gray-900"
@@ -73,7 +73,9 @@ const About: React.FC = () => {
                 degree="B.Tech in Computer Science & Engineering"
                 institution="Parul University"
                 period="2022 - 2026"
-                description="Foundation in computer science and Engineering, mathematics, and programming. Developed strong problem-solving skills and technical aptitude."
+                description="Foundation in Computer Science and Engineering, with skills in Machine Learning, Data Science,
+Python, SQL, Tableau, Flask, ReactJS, HTML, CSS and MS Excel. Interested in working with data to find useful
+insights and build simple solutions. Eager to learn and grow in the field of technology."
               />
             </div>
           </section>
@@ -84,6 +86,7 @@ const About: React.FC = () => {
               Work Experience
             </h2>
             <div className="space-y-6">
+              UPDATING SOON...
               {/* <ExperienceItem 
                 position="Senior Data Scientist"
                 company="Google AI"
@@ -126,11 +129,17 @@ const About: React.FC = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
               <Award className="mr-3 text-blue-600 dark:text-blue-400" size={24} />
-              Certifications & 
+              Certifications 
             </h2>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">"Data Visualization using Python and Tableau Certificate</h3>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Introduction to Artificial Intelligence</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">IBM SkillsBuild, 2025</p>
+                <p className="text-gray-600 dark:text-gray-300">I completed the "Introduction to Artificial Intelligence" certification from IBM SkillsBuild, where I learned the basics of AI and how real-world AI systems work.</p>
+              </div>
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Data Visualization using Python and Tableau Certificate</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Parul University, 2024</p>
                 <p className="text-gray-600 dark:text-gray-300">Completed a course on Data Visualization using Python and Tableau, gaining skills in creating visualizations, analyzing data, and
 building interactive dashboards.</p>
@@ -147,11 +156,11 @@ Numpy and Matplotlib.</p>
                 <p className="text-gray-600 dark:text-gray-300">Completed the "SQL and Relational Databases 101" course, learning the basics of SQL, relational database concepts, and writing
 queries to manage and retrieve data efficiently.</p>
               </div>
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+              {/* <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Kaggle Competition Winner</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">Kaggle, 2024</p>
                 <p className="text-gray-600 dark:text-gray-300">First place in a predictive modeling competition with over 500 participants.</p>
-              </div>
+              </div> */}
             </div>
           </section>
         </div>

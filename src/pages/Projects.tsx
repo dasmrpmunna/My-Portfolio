@@ -9,30 +9,41 @@ const Projects: React.FC = () => {
 
     {
       id: 1,
-      title: 'Placement-Prediction-System',
-      description: 'Placement Prediction System is a machine learning-based project that predicts student placement using a Random Forest Classifier. It takes academic and skill-based inputs and shows the result through a simple Flask-powered web app with an HTML/CSS frontend for user-friendly interaction.',
-      image: '/images/2.png',
-      categories: ['Machine Learning', '#'],
-      technologies: ['Python', 'Scikit-Learn', 'Flask', 'HTML','CSS'],
-      github: 'https://github.com/dasmrpmunna/Placement-Prediction-System',
+      title: 'AI-Skin-Disease-Classification',
+      description: 'Built an AI skin disease classification with VGG19, hitting 86.8% accuracy across 9 conditions with real-time confidence scores. Developed a full-stack React (TypeScript) + Flask app for secure, interactive medical analysis. Delivered a privacy-first solution, processing images locally and showcasing TensorFlow, Python, and modern web skills.',
+      image: '/images/1.png',
+      categories: ['Machine Learning','Visualization','#'],
+      technologies: ['Python', 'AI & Deep Learning(VGG19, TensorFlow/Keras)', 'React(TypeScript)', 'Flask'],
+      github: 'https://github.com/dasmrpmunna/AI-Skin-Disease-Classification',
       demo: '#',
       featured: true
     },
 
     {
       id: 2,
-      title: 'Predict-Crop-Production',
-      description: '🚀 Predict Crop Production is a Machine Learning project that helps farmers and agricultural experts determine the best crop to grow based on soil nutrients, temperature, humidity, pH, and rainfall.🌱 Using ML algorithms, it provides accurate predictions to optimize yield and sustainability.💡✨ 🚜🌾',
-      image: '/images/crop production.png',
+      title: 'AI-Diabetic-Retinopathy-Classification',
+      description: 'I built a full-stack web application that uses deep learning to detect diabetic retinopathy from retinal images with 94% accuracy. The goal is to support early screening and prevention of vision loss in diabetic patients.',
+      image: '/images/2.png',
       categories: ['Machine Learning', '#'],
-      technologies: ['Python', 'Scikit-Learn', 'Flask', 'HTML','CSS','Git/GitHub'],
-      github: 'https://github.com/dasmrpmunna/Predict-Crop-Production',
-      demo: 'https://predictcropproduction.onrender.com/',
+      technologies: ['Python', 'AI & Deep Learning(CNN, VGG16, TensorFlow/Keras)', 'React(TypeScript)', 'Flask'],
+      github: 'https://github.com/dasmrpmunna/Diabetic-Retinopathy-Classification',
+      demo: '#',
+      featured: true
+    },
+    {
+      id: 3,
+      title: 'Fraud Filter - Fake Product Detection System',
+      description: 'The Fake Product Review Detection System is a machine learning-powered web application designed to analyze and detect fake reviews on eCommerce platforms. It helps users identify whether a product has genuine or manipulated reviews by leveraging Natural Language Processing (NLP) and supervised learning models.',
+      image: '/images/3.png',
+      categories: ['Machine Learning','NLP', '#'],
+      technologies: ['Python, Machine Learning', 'Deep Learning(NPL)', 'Flask', 'HTML', 'CSS'],
+      github: 'https://github.com/dasmrpmunna/Fake-Product-Detection-System',
+      demo: '#',
       featured: true
     },
 
     {
-      id: 3,
+      id: 4,
       title: 'Audio-Deepfake-Detection',
       description: 'Real-time audio deepfake detection app using TensorFlow and Flask. Upload a .wav file to check if its real or fake. Uses spectrogram features and a CNN model for classification.',
       image: '/images/dasmunna.png',
@@ -44,7 +55,31 @@ const Projects: React.FC = () => {
     },
 
     {
-      id: 4,
+      id: 5,
+      title: 'UI UPDATING SOON - Placement-Prediction-System',
+      description: 'Placement Prediction System is a machine learning-based project that predicts student placement using a Random Forest Classifier. It takes academic and skill-based inputs and shows the result through a simple Flask-powered web app with an HTML/CSS frontend for user-friendly interaction.',
+      image: '/images/5.png',
+      categories: ['Machine Learning', '#'],
+      technologies: ['Python', 'Scikit-Learn', 'Flask', 'HTML','CSS'],
+      github: 'https://github.com/dasmrpmunna/Placement-Prediction-System',
+      demo: '#',
+      featured: true
+    },
+
+    {
+      id: 6,
+      title: 'UI UPDATING SOON - Predict-Crop-Production',
+      description: '🚀 Predict Crop Production is a Machine Learning project that helps farmers and agricultural experts determine the best crop to grow based on soil nutrients, temperature, humidity, pH, and rainfall.🌱 Using ML algorithms, it provides accurate predictions to optimize yield and sustainability.💡✨ 🚜🌾',
+      image: '/images/crop production.png',
+      categories: ['Machine Learning', '#'],
+      technologies: ['Python', 'Scikit-Learn', 'Flask', 'HTML','CSS','Git/GitHub'],
+      github: 'https://github.com/dasmrpmunna/Predict-Crop-Production',
+      demo: 'https://predictcropproduction.onrender.com/',
+      featured: true
+    },
+
+    {
+      id: 7,
       title: 'COOMING SOON... -Predictive Analytics Dashboard',
       description: 'Built an interactive dashboard for sales forecasting using machine learning algorithms and time-series analysis. The system provides accurate predictions and visualizations for business planning.',
       image: 'https://images.pexels.com/photos/7947541/pexels-photo-7947541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -55,7 +90,7 @@ const Projects: React.FC = () => {
       featured: true
     },
     {
-      id: 6,
+      id: 8,
       title: 'COOMING SOON... -Natural Language Processing System',
       description: 'Developed a sentiment analysis tool for customer feedback that processes text data and provides actionable insights. The system uses advanced NLP techniques to analyze customer comments.',
       image: 'https://datasciencedojo.com/wp-content/uploads/Key-Challenges-in-Natural-Language-Processing-NLP.png',
@@ -66,7 +101,7 @@ const Projects: React.FC = () => {
       featured: true
     },
     {
-      id: 7,
+      id: 9,
       title: 'COOMING SOON... -Customer Segmentation Analysis',
       description: 'Performed cluster analysis on customer data to identify distinct market segments. This helped in targeted marketing campaigns and personalized customer experiences.',
       image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -77,7 +112,7 @@ const Projects: React.FC = () => {
       featured: false
     },
     {
-      id: 8,
+      id: 10,
       title: 'COOMING SOON... -Interactive Data Visualization Platform',
       description: 'Created an interactive web application for data exploration and visualization. Users can upload their datasets and generate various types of visualizations.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -88,7 +123,7 @@ const Projects: React.FC = () => {
       featured: false
     },
     {
-      id: 9,
+      id: 11,
       title: 'COOMING SOON... -Anomaly Detection System',
       description: 'Designed and implemented an anomaly detection system for identifying fraudulent transactions in financial data. The system uses ensemble methods to improve accuracy.',
       image: 'https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -99,7 +134,7 @@ const Projects: React.FC = () => {
       featured: false
     },
     {
-      id: 10,
+      id: 12,
       title: 'COOMING SOON... -Text Summarization Tool',
       description: 'Built an automated text summarization tool that condenses long articles and documents into concise summaries while preserving key information and context.',
       image: 'https://images.pexels.com/photos/9822732/pexels-photo-9822732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
