@@ -66,7 +66,7 @@ const App = () => {
       
       <button
         onClick={toggleTheme}
-        className="fixed z-50 top-5 right-5 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 transition-all duration-300 hover:bg-gray-300 dark:hover:bg-gray-600"
+        className="fixed z-50 top-5 right-14 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 transition-all duration-300 hover:bg-gray-300 dark:hover:bg-gray-600"
         aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
       >
         {darkMode ? <Sun size={20} /> : <Moon size={20} />}
